@@ -1,0 +1,40 @@
+# Ignore all
+_/
+bin/
+build/
+conf/
+jars/
+lib/
+reobf/
+temp/
+workspace/
+options.cfg
+RetroMCP-Java-all.jar
+
+# Keep the mod
+
+# Client
+
+!src/minecraft/
+src/minecraft/*
+!src/minecraft/com/
+!src/minecraft/net/
+src/minecraft/net/*
+!src/minecraft/net/minecraft
+src/minecraft/net/minecraft/*
+!src/minecraft/net/minecraft/src/
+src/minecraft/net/minecraft/src/*
+!src/minecraft/net/minecraft/src/mod_FrogMusic.java
+
+#Server
+
+!src/minecraft_server/
+src/minecraft_server/*
+!src/minecraft_server/com/
+!src/minecraft_server/net/
+src/minecraft_server/net/*
+!src/minecraft_server/net/minecraft
+src/minecraft_server/net/minecraft/*
+!src/minecraft_server/net/minecraft/src/
+src/minecraft_server/net/minecraft/src/*
+!src/minecraft_server/net/minecraft/src/mod_FrogMusic.java
