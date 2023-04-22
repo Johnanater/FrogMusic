@@ -69,7 +69,7 @@ public class mod_FrogMusic extends BaseModMp
     @Override
     public String Version()
     {
-        return "1.0.0";
+        return "1.0.1";
     }
 
     @MLProp(name = "Override Creepers",

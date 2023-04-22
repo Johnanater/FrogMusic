@@ -1,5 +1,6 @@
 package com.johnanater.frogmusic;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.src.*;
 
 import java.io.File;
@@ -107,8 +108,13 @@ public class FrogMusicLoader
         String loc = musicDir + "/" + path.getFileName() + soundPath + soundFile;
         File file = new File(loc);
 
+        Minecraft mc = ModLoader.getMinecraftInstance();
+
         // Load the ogg/mus file
-        ModLoader.getMinecraftInstance().sndManager.addStreaming(soundFile, file.getCanonicalFile());
+        if (type.equalsIgnoreCase("record"))
+            mc.sndManager.addStreaming(soundFile, file.getCanonicalFile());
+        if (type.equalsIgnoreCase("bgmusic"))
+            mc.sndManager.addMusic(soundFile, file.getCanonicalFile());
 
         // Load the texture file
         customMusic.textureFile = "/" + path.getFileName() + texturePath;
