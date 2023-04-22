@@ -1,4 +1,4 @@
-This mod allows you to add custom records using simple json files!
+This mod allows you to add custom records and background music using simple json files!
 
 Requirements:
 -------------
@@ -75,6 +75,25 @@ This record uses the "Blocks" file from resources/streaming.
 	"texturePath": "/music_disc_blocks.png"
 }
 
+```
+
+
+Adding Background Music:
+------------------------
+
+Background music uses the same file and folder structure as records.
+To add a custom background music, use this a template.
+All non-applicable fields can be left to their default value.
+Meaning, leave the name and texture blank, and the id to 0.
+```
+{
+	"type": "bgmusic",
+	"itemName": "",
+	"itemId": "0",
+	"soundFile": "MyEpicBackgroundSong.ogg",
+	"soundPath": "/",
+	"texturePath": ""
+}
 ```
 
 
