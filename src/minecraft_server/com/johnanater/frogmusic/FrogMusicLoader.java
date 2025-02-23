@@ -169,11 +169,9 @@ public class FrogMusicLoader
         removeCreeper(BiomeGenBase.taiga);
         removeCreeper(BiomeGenBase.iceDesert);
         removeCreeper(BiomeGenBase.tundra);
-        removeCreeper(BiomeGenBase.hell);
         removeCreeper(BiomeGenBase.savanna);
         removeCreeper(BiomeGenBase.shrubland);
         removeCreeper(BiomeGenBase.swampland);
-        removeCreeper(BiomeGenBase.field_28054_m); // field_28054_m = sky
 
         // Re-add the new Creeper to all biomes
         addCreeper(BiomeGenBase.desert);
@@ -184,11 +182,9 @@ public class FrogMusicLoader
         addCreeper(BiomeGenBase.taiga);
         addCreeper(BiomeGenBase.iceDesert);
         addCreeper(BiomeGenBase.tundra);
-        addCreeper(BiomeGenBase.hell);
         addCreeper(BiomeGenBase.savanna);
         addCreeper(BiomeGenBase.shrubland);
         addCreeper(BiomeGenBase.swampland);
-        addCreeper(BiomeGenBase.field_28054_m); // field_28054_m = sky
 
         // Add original records
         allRecords.add(Item.record13.shiftedIndex);

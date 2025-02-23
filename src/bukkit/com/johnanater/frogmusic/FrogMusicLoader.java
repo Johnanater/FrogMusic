@@ -169,11 +169,9 @@ public class FrogMusicLoader
         removeCreeper(BiomeBase.TAIGA);
         removeCreeper(BiomeBase.ICE_DESERT);
         removeCreeper(BiomeBase.TUNDRA);
-        removeCreeper(BiomeBase.HELL);
         removeCreeper(BiomeBase.SAVANNA);
         removeCreeper(BiomeBase.SHRUBLAND);
         removeCreeper(BiomeBase.SWAMPLAND);
-        removeCreeper(BiomeBase.SKY);
 
         // Re-add the new Creeper to all biomes
         addCreeper(BiomeBase.DESERT);
@@ -184,11 +182,9 @@ public class FrogMusicLoader
         addCreeper(BiomeBase.TAIGA);
         addCreeper(BiomeBase.ICE_DESERT);
         addCreeper(BiomeBase.TUNDRA);
-        addCreeper(BiomeBase.HELL);
         addCreeper(BiomeBase.SAVANNA);
         addCreeper(BiomeBase.SHRUBLAND);
         addCreeper(BiomeBase.SWAMPLAND);
-        addCreeper(BiomeBase.SKY);
 
         // Add original records
         allRecords.add(Item.GOLD_RECORD.id);
